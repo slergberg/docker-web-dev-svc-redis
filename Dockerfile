@@ -1,5 +1,5 @@
 # Base image
-FROM redis:5.0.8-alpine
+FROM redis:6.0.0-alpine
 
 # Base dependencies
 RUN apk add --no-cache \
